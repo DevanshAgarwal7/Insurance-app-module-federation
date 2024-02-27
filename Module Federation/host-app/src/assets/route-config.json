@@ -1,6 +1,7 @@
- {
+
+{
     "routes" : [
-        {
+        {   
             "remoteEntry" : "https://insurance-name.netlify.app/remoteEntry.js",
             "remoteName" : "remoteApp",
             "exposedModule" : "./CounterModule",

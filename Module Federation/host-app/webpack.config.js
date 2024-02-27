@@ -42,19 +42,19 @@ module.exports = {
         
         // For hosts (please adjust)
         remotes: {
-            "remoteApp": "remoteApp@https://insurance-details.netlify.app/remoteEntry.js",
-            "remoteApp2": "remoteApp2@https://insurance-details.netlify.app/remoteEntry.js",
+            // "remoteApp": "remoteApp@https://insurance-details.netlify.app/remoteEntry.js",
+            // "remoteApp2": "remoteApp2@https://insurance-details.netlify.app/remoteEntry.js",
 
         },
 
 
         shared: share({
-          'shared': { 
-            singleton: true,
-            requiredVersion: '^0.0.0-shared',
-            import: 'http://localhost:4200/remoteEntry.js', 
-            shareKey: 'shared'
-        },
+        //   'shared': { 
+        //     singleton: true,
+        //     requiredVersion: '^0.0.0-shared',
+        //     import: 'http://localhost:4200/remoteEntry.js', 
+        //     shareKey: 'shared'
+        // },
           "@angular/core": { singleton: true, strictVersion: true, requiredVersion: 'auto',eager: true  }, 
           "@angular/common": { singleton: true, strictVersion: true, requiredVersion: 'auto',eager: true  }, 
           "@angular/common/http": { singleton: true, strictVersion: true, requiredVersion: 'auto',eager: true  }, 

@@ -26,6 +26,8 @@ export class AppComponent implements OnInit {
 
    ngOnInit(): void {
     window.addEventListener('message', this.receivePremiumNotificationMFE1.bind(this));
+
+    console.log(localStorage.getItem('mfe1'));
   } 
  
 
